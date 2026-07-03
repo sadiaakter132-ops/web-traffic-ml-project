@@ -1,0 +1,41 @@
+2. GITHUB README
+🔵 Title:
+
+Web Traffic Conversion Prediction (Imbalanced Classification Problem)
+
+🔵 Overview
+
+This project predicts user conversion behavior using machine learning models on a real-world imbalanced web traffic dataset.
+
+🔵 Workflow
+Data Cleaning
+Exploratory Data Analysis (EDA)
+Statistical Testing (Correlation, ANOVA, Chi-square)
+Feature Engineering
+Handling Class Imbalance (SMOTE)
+Model Training (Logistic Regression, Random Forest, XGBoost)
+Model Evaluation (Confusion Matrix, ROC-AUC)
+Threshold Tuning
+🔵 Key Features Engineered
+Engagement Score
+Session Intensity
+High Engagement Flag
+Bounce Indicator Transformation
+🔵 Models Used
+Logistic Regression (Baseline)
+Random Forest (Non-linear model)
+XGBoost (Advanced boosting model)
+🔵 Results Summary
+Initial models showed bias toward majority class
+SMOTE improved class balance
+Feature engineering improved recall
+Final model showed trade-off between precision and recall
+ROC-AUC indicated weak but learnable signal
+🔵 Key Learnings
+Accuracy is misleading in imbalanced datasets
+Recall and F1-score are more important
+Feature engineering significantly impacts model performance
+Real-world behavioral data is often noisy and non-linear
+🔵 Tech Stack
+
+Python, Pandas, NumPy, Scikit-learn, XGBoost, Imbalanced-learn, Matplotlib
